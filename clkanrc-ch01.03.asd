@@ -11,5 +11,6 @@
                           :components
                           ((:file "temperature-conversion"))))
   :depends-on   ("uiop"
+                 "check-it"
                  "prove")
   :in-order-to ((test-op (test-op clkanrc-ch01.03-test))))
