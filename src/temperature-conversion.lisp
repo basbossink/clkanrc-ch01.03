@@ -15,4 +15,4 @@
   (+ +zero-celsius-in-fahrenheit+ (/ celsius +celsius-to-fahrenheit-ratio+)))
 
 (defun fahrenheit->celsius (fahrenheit)
-  fahrenheit)
+  (* +celsius-to-fahrenheit-ratio+ (- fahrenheit +zero-celsius-in-fahrenheit+)))
